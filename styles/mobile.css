@@ -24,4 +24,12 @@
     width: 100%;
     max-width: none;
   }
+
+  .lead-grid {
+    flex-direction: column;
+  }
+
+  .lead-form, .lead-info {
+    width: 100%;
+  }
 }
