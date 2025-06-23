@@ -515,3 +515,64 @@ p {
   background-color: #0088cc;
   color: white;
 }
+
+/* Why Us */
+
+.why-us {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.why-us h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.why-us .accent {
+  color: #3b82f6;
+}
+
+.why-us p {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.ceo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.ceo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.why-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.why-item {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 16px;
+  color: #000;
+}
+
+.why-item.dark {
+  background: #000;
+  color: #fff;
+}
+
+.why-item.image-bg {
+  background-image: url('img/sprinkler.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
