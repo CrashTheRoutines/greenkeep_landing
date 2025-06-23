@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  
+  .top-bar .container,
+  .main-nav .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav a {
+    margin: 5px 10px 0 0;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-form {
+    width: 100%;
+    max-width: none;
+  }
+}
