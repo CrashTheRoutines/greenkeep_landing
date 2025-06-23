@@ -88,7 +88,7 @@ p {
 
 .hero {
   position: relative;
-  background-image: url('./assets/img/hero-bg.jpg');
+  background-image: url('./assets/img/hero_bgd.png');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -98,7 +98,7 @@ p {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* тёмный фильтр */
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
