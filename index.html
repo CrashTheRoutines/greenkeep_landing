@@ -415,30 +415,189 @@
           </div>
         </div>
       </section>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__content">
-          <div class="footer__left">
-            <h3 class="footer__logo">Wishbone<span>+Partners</span></h3>
-            <p class="footer__text">
-              Powered by Webflow.<br />
-              All rights reserved Wishbone+Partners, Inc. Licensing.<br />
-              Design by
-              <a
-                href="https://www.figma.com/design/wyJGrJ8n5Z5qUySpXAK8mA/Wishbone?node-id=0-1&t=EQydxqapHMMdiiIw-1"
-                target="_blank"
-                >Designer Name</a
-              >
-            </p>
-          </div>
-          <div class="footer__right">
-            <div class="footer__socials">
-              <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
-              <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+      <section class="projects">
+        <h2 class="section-title">Наши объекты</h2>
+
+        <div class="project-card">
+          <!-- Левая часть -->
+          <div class="project-gallery">
+            <img src="main.jpg" class="main-photo" alt="Объект" />
+            <div class="thumbnails">
+              <img src="thumb1.jpg" alt="" />
+              <img src="thumb2.jpg" alt="" />
+              <img src="thumb3.jpg" alt="" />
+              <img src="thumb4.jpg" alt="" />
             </div>
           </div>
+
+          <!-- Правая часть -->
+          <div class="project-info">
+            <h3>Объект в КП Солнечный Бор</h3>
+
+            <p class="subdued">Задача:</p>
+            <p class="description">
+              К нам обратились с пожеланием быстро установить систему полива...
+            </p>
+
+            <div class="project-meta">
+              <div><strong>Срок монтажа:</strong> 6 дней</div>
+              <div><strong>Оборудование:</strong> Hunter, Rain Bird</div>
+              <div><strong>Гарантия:</strong> 5 лет</div>
+              <div><strong>Дата монтажа:</strong> 15 мая 2023 года</div>
+            </div>
+
+            <button class="cta-button">
+              УЗНАТЬ СТОИМОСТЬ
+              <span class="arrow">→</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="nav-btn">←</button>
+          <button class="nav-btn">→</button>
+        </div>
+      </section>
+      <section class="reviews-section">
+        <h2><span>Честные</span> отзывы<br />наших клиентов</h2>
+
+        <div class="reviews-slider">
+          <!-- Карточка отзыва -->
+          <div class="review-card">
+            <h4>Olya Martynova</h4>
+            <div class="stars">★★★★★</div>
+            <p>Хочу выразить благодарность компании GreenKeep...</p>
+            <a href="#">Оригинал отзыва</a>
+          </div>
+          <!-- Повторить для других -->
+        </div>
+
+        <!-- Кнопки переключения -->
+        <div class="slider-nav">
+          <button class="nav-btn">←</button>
+          <button class="nav-btn">→</button>
+        </div>
+      </section>
+
+      <section class="letters-section">
+        <h2><span>Благодарственные</span> письма</h2>
+        <p class="intro">Текст текст текст текст...</p>
+
+        <div class="letters-slider">
+          <img src="letter1.jpg" alt="Письмо 1" />
+          <img src="letter2.jpg" alt="Письмо 2" />
+          <img src="letter3.jpg" alt="Письмо 3" />
+        </div>
+
+        <!-- Навигация -->
+        <div class="slider-nav">
+          <button class="nav-btn">←</button>
+          <button class="nav-btn">→</button>
+        </div>
+      </section>
+      <!-- Обратный звонок -->
+      <section class="callback-section">
+        <div class="callback-content">
+          <div class="left">
+            <h2>Нужна консультация?</h2>
+            <p>Позвоните нам сейчас...</p>
+            <div class="phone">+7 (812) 490-76-86</div>
+            <p class="schedule">Пн. – Пт.: с 9:00 до 18:00</p>
+            <div class="buttons">
+              <a href="#" class="btn whatsapp">Написать в WhatsApp</a>
+              <a href="#" class="btn telegram">Написать в Telegram</a>
+            </div>
+            <div class="manager">
+              Марина Андреева<br /><span>Руководитель клиентского отдела</span>
+            </div>
+          </div>
+
+          <div class="right">
+            <h3>
+              Или оставьте номер<br />
+              телефона...
+            </h3>
+            <form class="callback-form">
+              <input type="tel" placeholder="Введите номер" required />
+              <button type="submit">Перезвоните мне</button>
+              <label class="checkbox">
+                <input type="checkbox" required />
+                Я согласен с условиями политики конфиденциальности
+              </label>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Подписка -->
+      <section class="subscribe-section">
+        <div class="subscribe-box">
+          <h2><span>Подпишитесь</span> на рассылку...</h2>
+          <form class="subscribe-form">
+            <input type="email" placeholder="E-mail" required />
+            <button type="submit">Подписаться</button>
+            <label class="checkbox">
+              <input type="checkbox" required />
+              Я согласен с условиями политики конфиденциальности
+            </label>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-left">
+          <div class="logo">
+            <img src="logo.svg" alt="GreenKeep" />
+            <p>Системы автоматического полива для Вашего ландшафта и сада</p>
+          </div>
+          <div class="social">
+            <a href="#"><img src="vk-icon.svg" alt="VK" /></a>
+            <a href="#"><img src="dzen-icon.svg" alt="Dzen" /></a>
+          </div>
+          <div class="address">
+            <img src="map-icon.svg" alt="Address" />
+            <span
+              >Санкт-Петербург,<br />
+              пр. Обуховской обороны 22 к 8</span
+            >
+          </div>
+          <div class="email">
+            <img src="mail-icon.svg" alt="Email" />
+            <span>info@gazon-poliv.ru</span>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <nav class="footer-nav">
+            <a href="#">Об услуге</a>
+            <a href="#">Этапы монтажа</a>
+            <a href="#">Преимущества</a>
+            <a href="#">О нас</a>
+            <a href="#">Наши работы</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Контакты</a>
+          </nav>
+        </div>
+
+        <div class="footer-right">
+          <div class="phone">
+            <img src="phone-icon.svg" alt="Phone" />
+            <a href="tel:+78124907686">+7 (812) 490-76-86</a>
+            <span>Пн - Пт с 9:00 до 18:00</span>
+          </div>
+          <button class="callback-btn">Обратный звонок</button>
+          <a class="messenger whatsapp" href="#">Написать в WhatsApp</a>
+          <a class="messenger telegram" href="#">Написать в Telegram</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025, Компания ООО «Тру Винч». Все права защищены</p>
+        <div class="footer-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Публичная оферта</a>
+          <a href="#">Разработка сайта</a>
         </div>
       </div>
     </footer>
