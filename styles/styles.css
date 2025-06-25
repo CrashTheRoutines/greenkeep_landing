@@ -4,10 +4,7 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
-  box-sizing: border-box;
   scroll-behavior: smooth;
   background-color: rgba(255, 255, 255, 1);
 
@@ -53,7 +50,6 @@ p {
 .header {
   background: #fff;
   border-bottom: 1px solid #eee;
-  font-family: 'Inter', sans-serif;
 }
 
 /* Верхняя полоса */
@@ -431,11 +427,6 @@ p {
   padding: 60px 20px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .lead-grid {
   display: flex;
   flex-wrap: wrap;
@@ -586,11 +577,6 @@ p {
   padding: 3rem 2rem;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
 .consultation-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -640,13 +626,13 @@ p {
   cursor: pointer;
 }
 
-.checkbox {
+/* .checkbox {
   font-size: 0.85rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   color: #aaa;
-}
+} */
 
 .consultation-right {
   text-align: center;
