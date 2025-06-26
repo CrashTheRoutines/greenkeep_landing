@@ -626,13 +626,13 @@ p {
   cursor: pointer;
 }
 
-/* .checkbox {
+.consultation-checkbox {
   font-size: 0.85rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   color: #aaa;
-} */
+}
 
 .consultation-right {
   text-align: center;
